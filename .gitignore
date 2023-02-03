@@ -20,6 +20,7 @@ yarn.lock
 # build files
 #############
 .cache
+build
 
 # env files
 # these may contain sensitive data

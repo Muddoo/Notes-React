@@ -189,12 +189,12 @@ function App() {
       <div>
         {!editing && (
           <div className="note-operations">
-            <a href="#" onClick={() => editNoteHandler(note.id)}>
-              <i className="fa fa-pencil-alt" />
-            </a>
-            <a href="#" onClick={() => deleteNoteHandler(note.id)}>
-              <i className="fa fa-trash" />
-            </a>
+            <button className='icon' onClick={() => editNoteHandler(note.id)}>
+              تعديل
+            </button>
+            <button className='icon' onClick={() => deleteNoteHandler(note.id)}>
+              مسح
+            </button>
           </div>
         )}
         {noteDisplay}
