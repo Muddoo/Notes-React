@@ -15,7 +15,8 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "predeploy": "rm -rf node_modules/.cache/gh-pages && npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "deploy-gh": "rm -rf node_modules/.cache/gh-pages && npm run build && gh-pages -d build"
   },
   "browserslist": {
     "production": [
