@@ -19,7 +19,6 @@ yarn.lock
 
 # build files
 #############
-public
 .cache
 
 # env files
